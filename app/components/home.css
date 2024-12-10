@@ -1,0 +1,61 @@
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(250, 243, 237)!important;
+}
+
+.heroimage {
+    position: relative;
+    width: 100%;
+    height: 80vh; 
+    margin-bottom: 160px;
+    text-align: center;
+  }
+
+  .candlebg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    object-position: bottom; /* Centers the image within the container */
+  }
+
+.container py-4{
+    background-color:rgba(236, 201, 175, 1);
+}
+
+img.card-img-top {
+    height: fit-content;
+}
+
+.card-group{
+    gap: 10px;
+    width: 90%;
+   justify-content: center;
+}
+
+.btnprimary{
+    background-color:rgba(229, 164, 163, 1)!important;
+    color: black;
+    padding-top: 0.35rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 1.3em;
+    width: 190px!important;
+    margin-top: 20px;
+  }
+
+  .button{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .h1, h1 {
+    padding-top: 20px;
+  }

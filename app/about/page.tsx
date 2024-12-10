@@ -1,26 +1,51 @@
 import React from "react";
 import Header from "../components/header";
 import Nav from "../components/nav";
+import Footer from "../components/footer";
+import '../components/about.css';
 
-export default function Page() {
+export default function About() {
     return <>
 
-<div className="container py-4">
-        <div className="row">
+        <div className="container py-4">
+            <div className="row">
 
-<Header />
-<Nav />
+                <Header />
+                <Nav />
 
-            <div className="col-9">
-                <img className="d-block w-100 mb-3" src="https://fastly.picsum.photos/id/251/1280/720.jpg?hmac=YDyCcHsQDDzvzCfZ-MLi2fr2pFqpoH9OqSqmJFBwV7w" />
-                <h1>About Us</h1>
-                <p>
-We are the best coffee roaster.
-                </p>
+                <div className="col-9">
+                    <video src="/videos/candlemaking-video.mp4" className="object-fit-contain" autoPlay></video>
+                    <h1>Our Story</h1>
+                    <hr></hr>
+                </div>
+
+                <div className="container text-center">
+                    <div className="row">
+                        <div className="col">
+                            <p>
+                                Scentful Bliss began with a simple yet powerful idea — to create candles that evoke the warmth of cherished memories. What started as a small, passion-driven venture in Toronto has blossomed into a brand known for its handcrafted soy candles, each made with care and attention to detail.
+                                <br></br>
+                                <br></br>
+
+                                Using only the finest ingredients, we pour our candles by hand, ensuring every piece is a work of art. The clean, rich scents are carefully selected to transport you to moments of nostalgia, whether it's a cozy evening at home or a summer breeze. Every candle is crafted with love, dedication, and the belief that the perfect scent can transform any space.
+                                <br></br>
+                                <br></br>
+
+                                Born out of a love for creating something beautiful and meaningful, Scentful Bliss is a celebration of the art of candle-making — a process that’s as much about the experience as it is about the result.
+                            </p>
+                        </div>
+                        <div className="col">
+                            <img src="/images/pouringcandle.jpg" alt="img1" className="Image1" />
+                            <br></br>
+                            <br></br>
+                            <img src="/images/holdingcandle.jpg" alt="img2" className="Image2" />
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </div>
 
+
+        <Footer />
     </>
 }

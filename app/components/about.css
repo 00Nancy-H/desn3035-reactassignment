@@ -1,0 +1,28 @@
+video.object-fit-contain{
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+hr{
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.3em;
+    padding-top: 10px;
+}
+
+img.Image1{
+    width: 400px;
+    height: 450px;
+    padding-top: 14px;
+}
+
+img.Image2{
+    width: 400px;
+    height: 260px;
+}

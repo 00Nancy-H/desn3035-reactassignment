@@ -1,0 +1,26 @@
+.footercontainer{
+    background-color:rgba(236, 201, 175, 1);
+    height: 5vh;
+    padding-left: 60px;
+}
+
+
+.container-text-center{
+    background-color:rgba(236, 201, 175, 1);
+    height: 30vh;
+    
+}
+
+.row{
+    padding-top: 30px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+.col-6{
+    width: 35vw;
+}
+
+.h4{
+    text-align: center;
+}

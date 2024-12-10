@@ -1,0 +1,14 @@
+
+.navcontainer{
+    background-color: rgba(248, 225, 193, 1);
+}
+
+.nav-link{
+text-decoration: none;
+color: black;
+}
+
+.h1, h1{
+    margin: unset;
+    padding-bottom: 30px;
+}

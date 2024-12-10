@@ -1,13 +1,13 @@
 import React from "react";
+import './header.css';
+
 
 export default function Header() {
     return <>
 
-        <div className="col-12 mb-4">
-            <h1>Elevate Your Coffee Experience</h1>
-            <p className="small m-0">
-                Dive into the world of artisanal coffee roasting
-            </p>
+        <div className="headcontainer">
+            <img src="/images/Scentful Bliss.png" alt="logo" className="Image" />
+            <h1>Scentful Bliss</h1>
         </div>
 
     </>

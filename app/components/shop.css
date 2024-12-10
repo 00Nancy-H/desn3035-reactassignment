@@ -1,0 +1,29 @@
+h1{
+    padding-top: 15px;
+    text-align: center;
+}
+hr{
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.3em;
+    padding-top: 10px;
+}
+
+
+img.card-img-top {
+    height: fit-content;
+}
+
+.card-group{
+    gap: 7px;
+    padding-bottom: 10px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}

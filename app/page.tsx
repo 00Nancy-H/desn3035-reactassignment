@@ -1,26 +1,55 @@
 import React from "react";
 import Header from "./components/header";
 import Nav from "./components/nav";
+import Footer from "./components/footer";
+import './components/home.css';
 
-export default function Page() {
-    return <>
+export default function Home() {
+  return <>
 
-<div className="container py-4">
-        <div className="row">
+        <Header />
+        <Nav />
 
-<Header />
-<Nav />
-
-            <div className="col-9">
-                <img className="d-block w-100 mb-3" src="https://fastly.picsum.photos/id/251/1280/720.jpg?hmac=YDyCcHsQDDzvzCfZ-MLi2fr2pFqpoH9OqSqmJFBwV7w" />
-                <h1>Welcome</h1>
-                <p>
-                    Explore our meticulously sourced beans, learn about our roasting process, and discover unique flavor profiles. Join us on a journey from farm to cup, and experience the true essence of coffee like never before!
-                </p>
-            </div>
-
+        <div className="heroimage">
+          <img src="/images/candlebackground.png"
+            alt="img1" className="candlebg1" />
+          <h1>Welcome to Scentful Bliss Candles</h1>
+          <p>
+            “Handcrafted to Perfection, Inspired by Memories, Designed for Your Senses."
+          </p>
         </div>
-    </div>
 
-    </>
+        <div className="card-group">
+          <div className="card">
+            <img src="/images/peach blossommm.png" className="card-img-top" alt="peachblossom" />
+            <div className="card-body">
+              <h5 className="card-title">Peach Blossom Candle</h5>
+              <p className="card-text">Peach, Jasmine, White Amber, Grapefruit, Freesia</p>
+              <p className="card-text"><small className="text-muted">$15.99</small></p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="/images/Sageeee1.png" className="card-img-top" alt="sagecd" />
+            <div className="card-body">
+              <h5 className="card-title">Serenity Sage</h5>
+              <p className="card-text">Rosewater, Green Ivy, Lily, Musk, Peony</p>
+              <p className="card-text"><small className="text-muted">$14.99</small></p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="/images/Blooming Gardenia.png" className="card-img-top" alt="garcd" />
+            <div className="card-body">
+              <h5 className="card-title">Blooming Gardenia</h5>
+              <p className="card-text">Green Leaves, Gardenia, Jasmine, White Lily, Soft Musk</p>
+              <p className="card-text"><small className="text-muted">$18.99</small></p>
+            </div>
+          </div>
+        </div>
+
+<div className="button">
+        <button type="button" className="btnprimary">Shop Best Sellers</button>
+</div>
+
+    <Footer />
+  </>
 }
