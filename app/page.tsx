@@ -11,15 +11,21 @@ export default function Home() {
         <Nav />
 
         <div className="heroimage">
-          <img src="/images/candlebackground.png"
+          <img src="./images/candlebackground.png"
             alt="img1" className="candlebg1" />
+            </div>
+            <div className="headertext">
           <h1>Welcome to Scentful Bliss Candles</h1>
           <p>
             “Handcrafted to Perfection, Inspired by Memories, Designed for Your Senses."
           </p>
         </div>
 
-        <div className="card-group">
+        <div className="button">
+        <a className="btn btn-primary" href="./shop" role="button">Shop Now</a>
+</div>
+
+        <center><div className="card-group">
           <div className="card">
             <img src="/images/peach blossommm.png" className="card-img-top" alt="peachblossom" />
             <div className="card-body">
@@ -45,9 +51,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </center>
 
 <div className="button">
-        <button type="button" className="btnprimary">Shop Best Sellers</button>
+<a className="btn btn-primary" href="./shop" role="button">Shop Best Sellers</a>
 </div>
 
     <Footer />
