@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header";
+import Header from "../components/header"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import '../components/about.css';
@@ -7,19 +7,18 @@ import '../components/about.css';
 export default function About() {
     return <>
 
-        <div className="container py-4">
-            <div className="row">
-
                 <Header />
                 <Nav />
 
-                <div className="col-9">
-                    <video src="/videos/candlemaking-video.mp4" className="object-fit-contain" autoPlay></video>
+                <div className="containervideo">
+                    <video src="./videos/candlemaking-video.mp4" className="object-fit-contain" autoPlay></video>
+                    </div>
+                    <div className="text2">
                     <h1>Our Story</h1>
                     <hr></hr>
                 </div>
 
-                <div className="container text-center">
+                <div className="containercenter">
                     <div className="row">
                         <div className="col">
                             <p>
@@ -35,16 +34,13 @@ export default function About() {
                             </p>
                         </div>
                         <div className="col">
-                            <img src="/images/pouringcandle.jpg" alt="img1" className="Image1" />
+                            <img src="./images/pouringcandle.jpg" alt="img1" className="Image1" />
                             <br></br>
                             <br></br>
-                            <img src="/images/holdingcandle.jpg" alt="img2" className="Image2" />
+                            <img src="./images/holdingcandle.jpg" alt="img2" className="Image2" />
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
 
         <Footer />
     </>
