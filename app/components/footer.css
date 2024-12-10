@@ -1,8 +1,9 @@
-.footercontainer{
-    background-color:rgba(236, 201, 175, 1);
-    height: 5vh;
-    padding-left: 60px;
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 
 .container-text-center{
@@ -11,16 +12,27 @@
     
 }
 
-.row{
-    padding-top: 30px;
-   padding-left: 60px;
-   padding-right: 60px;
-}
 
 .col-6{
     width: 35vw;
 }
 
-.h4{
-    text-align: center;
+.col-2{
+    display: block;
+    padding: 15px;
+}
+
+.h4, h4{
+    text-align: left;
+    padding: 25px;
+    display: flex;
+}
+
+p{
+    font-size: 0.875em;
+    padding-top: 10px;
+}
+
+.form-control{
+padding: 10px;
 }
