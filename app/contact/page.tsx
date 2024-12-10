@@ -5,23 +5,16 @@ import Footer from "../components/footer";
 
 export default function Contact() {
     return <>
+        <Header />
+        <Nav />
 
-        <div className="container py-4">
-            <div className="row">
+        <div className="contactform">
+            <h1>Contact Us</h1>
+            <h3>Let’s connect! We’d love to hear from you. Whether you have questions, feedback, or need assistance, our team is here to help. Simply fill out the form below, and we’ll get back to you as soon as possible. We look forward to hearing from you!</h3>
 
-                <Header />
-                <Nav />
 
-                <div className="col-9">
-                    <img className="d-block w-100 mb-3" src="https://fastly.picsum.photos/id/251/1280/720.jpg?hmac=YDyCcHsQDDzvzCfZ-MLi2fr2pFqpoH9OqSqmJFBwV7w" />
-                    <h1>Contact Us</h1>
-                    <p>
-                        You can reach us at 647-xxx-xyzx.
-                    </p>
-                </div>
+        </div >
 
-            </div>
-        </div>
-<Footer />
+        <Footer />
     </>
 }
