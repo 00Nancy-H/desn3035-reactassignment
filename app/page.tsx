@@ -15,10 +15,11 @@ export default function Home() {
             alt="img1" className="candlebg1" />
             </div>
             <div className="headertext">
-          <h1>Welcome to Scentful Bliss Candles</h1>
-          <p>
+          <h2>Welcome to Scentful Bliss Candles</h2>
+          <br></br>
+          <h3>
             “Handcrafted to Perfection, Inspired by Memories, Designed for Your Senses."
-          </p>
+          </h3>
         </div>
 
         <div className="button">

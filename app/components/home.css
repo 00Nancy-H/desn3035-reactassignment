@@ -6,6 +6,7 @@
 
 .headertext{
   text-align: center;
+  padding:20px;
 }
 
 .heroimage {
@@ -53,6 +54,6 @@ img.card-img-top {
     padding-bottom: 25px;
   }
 
-  .h1, h1 {
+  .h2, h2 {
     padding-top: 20px;
   }
