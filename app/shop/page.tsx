@@ -8,16 +8,12 @@ import Link from "next/link";
 
 export default function Shop() {
     return <>
-
-        <div className="container py-4">
-            <div className="row">
-
                 <Header />
                 <Nav />
 
                 <div className="toptext">
                     <h1>Best Sellers</h1>
-                    <hr></hr>
+                    <center><hr></hr></center>
                 </div>
 
                 <div className="breadcrumb-container">
@@ -57,7 +53,7 @@ export default function Shop() {
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
     <div className="card h-100">
-    <img src="/images/peach blossommm.png" className="card-img-top" alt="peachblossom1" />
+    <img src="./images/peach blossommm.png" className="card-img-top" alt="peachblossom1" />
     <div className="card-body">
       <h5 className="card-title">Peach Blossom</h5>
       <p className="card-text">Peach, Jasmine, White Amber, Grapefruit, Freesia</p>
@@ -69,7 +65,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/whitedream11.png" className="card-img-top" alt="whitefloral" />
+    <img src="./images/whitedream11.png" className="card-img-top" alt="whitefloral" />
     <div className="card-body">
       <h5 className="card-title">White Floral Dream</h5>
       <p className="card-text">Jasmine, Gardenia, White Rose, Lily of the Valley, Soft Musk</p>
@@ -81,7 +77,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/Pink Velvet Rose111.png" className="card-img-top" alt="pinkV" />
+    <img src="./images/Pink Velvet Rose111.png" className="card-img-top" alt="pinkV" />
     <div className="card-body">
       <h5 className="card-title">Pink Velvet Rose</h5>
       <p className="card-text">Pink Rose, Vanilla Bean, Sandalwood, Sweet Musk</p>
@@ -93,7 +89,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/Blooming Gardenia.png" className="card-img-top" alt="bloomG" />
+    <img src="./images/Blooming Gardenia.png" className="card-img-top" alt="bloomG" />
     <div className="card-body">
       <h5 className="card-title">Blooming Gardenia</h5>
       <p className="card-text">Green Leaves, Gardenia, Jasmine, White Lily, Soft Musk</p>
@@ -106,7 +102,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/Golden Vanillafinal.png" className="card-img-top" alt="goldenVanilla" />
+    <img src="./images/Golden Vanillafinal.png" className="card-img-top" alt="goldenVanilla" />
     <div className="card-body">
       <h5 className="card-title">Golden Vanilla</h5>
       <p className="card-text">Golden Amber, Madagascar Vanilla, Coconut, Sandalwood</p>
@@ -118,7 +114,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/candle mock up11111.png" className="card-img-top" alt="wildflowerBre" />
+    <img src="./images/candle mock up11111.png" className="card-img-top" alt="wildflowerBre" />
     <div className="card-body">
       <h5 className="card-title">Wildflower Breeze</h5>
       <p className="card-text">Lavender, Daisy, Violet, Wildflowers, Soft Woods, Fresh Grass</p>
@@ -130,7 +126,7 @@ export default function Shop() {
 
     <div className="col">
     <div className="card h-100">
-    <img src="/images/linen111.png" className="card-img-top" alt="freshlinen" />
+    <img src="./images/linen111.png" className="card-img-top" alt="freshlinen" />
     <div className="card-body">
       <h5 className="card-title">Fresh Linen & Lavender</h5>
       <p className="card-text">Lavender, Cotton Blossom, Fresh Linen, Musk</p>
@@ -142,7 +138,7 @@ export default function Shop() {
 
   <div className="col">
     <div className="card h-100">
-    <img src="/images/Sageeee1.png" className="card-img-top" alt="sage1" />
+    <img src="./images/Sageeee1.png" className="card-img-top" alt="sage1" />
     <div className="card-body">
       <h5 className="card-title">Serenity Sage</h5>
       <p className="card-text">Eucalyptus, Sage, Lavender, Cedarwood</p>
@@ -154,7 +150,7 @@ export default function Shop() {
 
   <div className="col">
   <div className="card h-100">
-    <img src="/images/coconut dream.png" className="card-img-top" alt="coconutDream" />
+    <img src="./images/coconut dream.png" className="card-img-top" alt="coconutDream" />
     <div className="card-body">
       <h5 className="card-title">Coconut Honey Dream</h5>
       <p className="card-text">Coconut Milk, Honey, Almond, Vanilla</p>
@@ -164,8 +160,7 @@ export default function Shop() {
     </div>
   </div>
 </div>
-  </div>
-</div>
+
 
 <Footer />
     </>
