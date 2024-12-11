@@ -15,17 +15,17 @@ export default function Footer() {
                 </div>
 
                 <div className="col-2">
-                    <h5>About</h5>
+                <a href="./about" className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">About</a>
                     <h6>Our Story</h6>
                 </div>
 
                 <div className="col-2">
-                    <h5>Shop</h5>
+                <a href="./shop" className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Shop</a>
                     <h6>Best Sellers</h6>
                 </div>
 
                 <div className="col-2">
-                    <h5>Contact Us</h5>
+                <a href="./contact" className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contact</a>
                     <h6>416-232-3455</h6>
                     <h6>info@scentfulbliss.ca</h6>
                 </div>
