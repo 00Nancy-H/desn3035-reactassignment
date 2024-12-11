@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
-
+.footercontainer{
+    background-color:rgba(236, 201, 175, 1);
+    padding-top: 20px;
+}
 
 .container-text-center{
     background-color:rgba(236, 201, 175, 1);
-    height: 30vh;
-    
+    height: 30vh;  
 }
 
 
-.col-6{
-    width: 35vw;
-}
+/* .col-6{
+    width: 50%;
+} */
 
 .col-2{
     display: block;
@@ -28,11 +30,15 @@
     display: flex;
 }
 
-p{
+h6{
     font-size: 0.875em;
     padding-top: 10px;
+    font-weight: 300!important;
 }
 
 .form-control{
-padding: 10px;
+padding-left: 40px!important;
+max-width: 400px!important;
+padding-bottom: 10px!important;
 }
+

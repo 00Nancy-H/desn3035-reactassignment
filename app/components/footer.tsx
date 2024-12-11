@@ -10,23 +10,24 @@ export default function Footer() {
                 <div className="col-6">
                     <h4>Join our email list and be the first to discover our newest candles and scents.</h4>
                     <input className="form-control" type="text" placeholder="Enter Your Email Here.." aria-label="default input example"></input>
+                    <br></br>
+                    <a className="btn btn-primary" href="#" role="button">Submit</a>
                 </div>
 
                 <div className="col-2">
                     <h5>About</h5>
-                    <p>Our Story</p>
+                    <h6>Our Story</h6>
                 </div>
 
                 <div className="col-2">
                     <h5>Shop</h5>
-                    <p>Best Sellers</p>
-                    <p>New Arrivals</p>
+                    <h6>Best Sellers</h6>
                 </div>
 
                 <div className="col-2">
                     <h5>Contact Us</h5>
-                    <p>416-232-3455</p>
-                    <p>info@scentfulbliss.ca</p>
+                    <h6>416-232-3455</h6>
+                    <h6>info@scentfulbliss.ca</h6>
                 </div>
             </div>
         </div>
