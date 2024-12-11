@@ -1,0 +1,51 @@
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.candlemaker {
+    width: 100%;
+    height: 500px;
+    object-fit: contain; /* Make sure the entire image fits without cropping */
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.contacttext{
+    text-align: center;
+    width: 40%;
+    padding-top: 20px;
+    justify-self: center;
+
+}
+
+.h3, h3{
+    font-size: 1.2em!important;
+    padding-bottom: 20px!important;
+}
+
+.form-control{
+    height: 8vh;
+    padding-bottom: 10px;
+}
+
+.form-label{
+    text-align: left;
+}
+
+.form-group{
+    padding-bottom: 20px;
+}
+
+.col-sm{
+   padding-left: 300px!important;
+}
+
+.col{
+    align-content: center;
+}
+
+.maincontainer{
+    padding-bottom: 30px;
+}
