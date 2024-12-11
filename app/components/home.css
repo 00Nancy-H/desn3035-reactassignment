@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color:rgb(250, 243, 237)!important;
+.headertext{
+  text-align: center;
 }
 
 .heroimage {
@@ -23,9 +23,6 @@ body{
     object-position: bottom; /* Centers the image within the container */
   }
 
-.container py-4{
-    background-color:rgba(236, 201, 175, 1);
-}
 
 img.card-img-top {
     height: fit-content;

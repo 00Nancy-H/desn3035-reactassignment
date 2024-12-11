@@ -17,4 +17,5 @@ transition: color 0.3s ease, background-color 0.3s ease!important;
 .h1, h1{
     margin: unset;
     padding-bottom: 30px;
+    font-size: 2.5em!important;
 }

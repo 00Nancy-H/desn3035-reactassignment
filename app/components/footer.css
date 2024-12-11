@@ -11,7 +11,8 @@
 
 .container-text-center{
     background-color:rgba(236, 201, 175, 1);
-    height: 30vh;  
+    height: auto; 
+    padding-top: 25px; 
 }
 
 
@@ -28,6 +29,7 @@
     text-align: left;
     padding: 25px;
     display: flex;
+    width: 50%;
 }
 
 h6{
@@ -42,3 +44,12 @@ max-width: 400px!important;
 padding-bottom: 10px!important;
 }
 
+.btn btn-primary{
+    padding: 5px;
+}
+
+
+.link-dark{
+    font-weight: bold!important;
+    font-size: 1.5em;
+}
