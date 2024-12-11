@@ -18,9 +18,7 @@ export default function Nav() {
                 <li className="nav-item">
                     <a className="nav-link" href="/contact">Contact</a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="/faq">FAQ</a>
-                </li>
+            
             </ul>
         </div>
     </>
